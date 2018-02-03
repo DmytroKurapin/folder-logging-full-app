@@ -1,0 +1,1 @@
+# folder-logging-full-app
