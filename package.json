@@ -1,0 +1,26 @@
+{
+  "name": "folder-logging-full-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmytroKurapin/folder-logging-full-app.git"
+  },
+  "author": "Dmitriy Kurapin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmytroKurapin/folder-logging-full-app/issues"
+  },
+  "homepage": "https://github.com/DmytroKurapin/folder-logging-full-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "sqlite3": "^3.1.13"
+  }
+}
