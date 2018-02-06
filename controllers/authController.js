@@ -35,4 +35,5 @@ exports.logout = function (req, res) {
     // todo time of event can be added
     db.run(`INSERT INTO events(user, event_message) VALUES(?, 'is successfully logged out')`, req.body['user']);
     console.log('User is logged out');
+    return res.status(200).send(true);
 };
